@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 // Variables
 int Vmax = 100;
 int Velocidad;
