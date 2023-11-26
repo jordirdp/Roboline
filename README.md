@@ -18,6 +18,7 @@
 - Arduino NANO  
 - Sensores de línea Pololu QTR-8A  
 - Controlador de motores TB6612FNG  
+- 2 x Motores Pololu 
 - 2 x Pulsadores
 - 2 x resistencias 10KΩ  
 - 2 x Leds  
