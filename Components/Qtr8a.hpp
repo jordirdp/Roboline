@@ -18,7 +18,7 @@ void calibracion()
 {
   for (byte i = 0; i < 3; i++) 
   {
-    Blink(RED);
+    Blink(LED);
   }
   // analogRead() takes about 0.1 ms on an AVR.
   // 0.1 ms per sensor * 4 samples per sensor read (default) * 8 sensors
@@ -30,7 +30,7 @@ void calibracion()
   }
   for (byte i = 0; i < 3; i++) 
   {
-    Blink(GREEN);
+    Blink(LED);
   }
   
   // print the calibration minimum values measured when emitters were on

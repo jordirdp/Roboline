@@ -27,8 +27,12 @@ void Blink(int Led_Pin)
 
 void inicia_leds()
 {
+  pinMode(LED, OUTPUT);
+  TurnOff(LED);
+  /*
   pinMode(RED, OUTPUT);
   TurnOff(RED);
   pinMode(GREEN, OUTPUT);
   TurnOff(GREEN);
+  */
 }

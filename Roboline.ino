@@ -5,7 +5,7 @@
 // Components
 #include "Components/Leds.hpp"
 #include "Components/Qtr8a.hpp"
-#include "Components/Buttons.hpp"
+//#include "Components/Buttons.hpp"
 
 
 void setup() 
@@ -15,15 +15,17 @@ void setup()
   // Inicializa
   inicia_leds();
   inicia_qtr();
-  inicia_buttons();
+  //inicia_buttons();
 }
 
 
 void loop() 
 {
+  /*
   // Lee estado buttons
   button_calibra.read();
   button_inicio.read();
+  */
 
   // read calibrated sensor values and obtain a measure of the line position
   // from 0 to 5000 (for a white line, use readLineWhite() instead)
