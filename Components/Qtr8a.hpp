@@ -10,7 +10,6 @@ void inicia_qtr()
 {
   qtr.setTypeAnalog();
   qtr.setSensorPins((const uint8_t[]){A0, A1, A2, A3, A4, A5, A6, A7}, SensorCount);
-  qtr.setEmitterPin(13);
   delay(500);
 }
 

@@ -7,18 +7,19 @@ EasyButton button_inicio(SWITCH_INICIO_PIN);
 
 void salida()
 {
-  Serial.println("Button2 pressed");
+  Serial.println("Button salida pressed");
 }
 
 
 void stop()
 {
-  Serial.println("Button2 pressed");
+  Serial.println("Button stop pressed");
 }
 
 
 void inicia_buttons()
 {
+  Serial.println("Button calibra pressed");
   button_calibra.begin();
   button_inicio.begin();
   button_calibra.onPressed(calibracion);

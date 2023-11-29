@@ -41,7 +41,7 @@
 - D01 = (TX)  
 - D02 = (INT0) Switch 1  
 - D03-= (INT1) Switch 2  
-- D04 = TB6612FNG STBY  
+- D04 =  
 - D05-= TB6612FNG PWM_A  
 - D06-= TB6612FNG PWM_B  
 - D07 = TB6612FNG AIN2  
@@ -50,7 +50,7 @@
 - D10-= TB6612FNG BIN2  
 - D11-= Led rojo  
 - D12 = Led verde  
-- D13 = QTR-8A ledon  
+- D13 = 
   
 ### Licencia  
 ⚖️Todo el contenido distribuido bajo [licencia GPL-3.0](https://www.gnu.org/licenses/gpl-3.0), salvo indicación expresa.  
