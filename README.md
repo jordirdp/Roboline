@@ -28,7 +28,7 @@
 ### Montaje  
 ![Imagen](/Images/Imagen.jpeg)  
   
-🔧Conexiones a pines Arduino UNO:  
+🔧 Conexiones a pines Arduino UNO:  
 - A00 = QTR-8A pin 1  
 - A01 = QTR-8A pin 2  
 - A02 = QTR-8A pin 3  
