@@ -6,9 +6,12 @@
 // Pines Bluetooth
 // D0 + D1 reservados para comunicaciones
 
-// Pines pulsadores (previsto interrupciones)
-// const int SWITCH_CALIBRA_PIN = 2;
-// const int SWITCH_INICIO_PIN = 3;
+// Pines interrupciones
+// D2 + D3
+
+// Pines pulsadores
+// const int SWITCH_CALIBRA_PIN = 4;
+// const int SWITCH_INICIO_PIN = 13;
 
 // Pines controlador motores
 const int PWM_I_PIN = 5; //~
@@ -21,5 +24,3 @@ const int DER_2_PIN = 10;
 // Pines leds
 // const int LED_RED_PIN = 11;
 // const int LED_GREEN_PIN = 12;
-
-// Pines libres 4 + 13
